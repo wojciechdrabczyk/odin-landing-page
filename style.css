@@ -1,0 +1,34 @@
+:root {
+  --dark: #1f2937;
+  --large-text: #f9faf8;
+  --secondary-text: #e5e7eb;
+  --button-color: #3882f6;
+
+  --text-sm: 18px;
+  --text-md: 24px;
+  --text-lg: 36px;
+  --text-xl: 48px;
+}
+
+.hero {
+  background-color: var(--dark);
+}
+.hero .main {
+  font-size: var(--text-xl);
+  font-weight: 800;
+  color: var(--large-text);
+}
+.hero .secondary,
+.header .link {
+  font-size: var(--text-sm);
+  color: #e5e7eb;
+}
+
+.header .logo {
+  font-size: var(--text-md);
+  color: var(--large-text);
+}
+
+footer {
+  background-color: var(--dark);
+}
