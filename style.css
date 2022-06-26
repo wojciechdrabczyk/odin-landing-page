@@ -19,12 +19,12 @@
   color: var(--large-text);
 }
 .hero .secondary,
-.header .link {
+header .link {
   font-size: var(--text-sm);
   color: #e5e7eb;
 }
 
-.header .logo {
+header .logo {
   font-size: var(--text-md);
   color: var(--large-text);
 }
@@ -32,3 +32,5 @@
 footer {
   background-color: var(--dark);
 }
+
+.button;
