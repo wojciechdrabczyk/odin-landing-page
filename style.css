@@ -36,7 +36,10 @@ header .logo {
   color: var(--large-text);
 }
 
-header .info {
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: var(--text-lg);
   font-weight: 800;
   color: var(--dark);
@@ -87,5 +90,3 @@ blockquote .text {
 footer {
   background-color: var(--dark);
 }
-
-.button;
