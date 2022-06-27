@@ -1,8 +1,13 @@
+* {
+  margin: 0px;
+}
+
 :root {
   --dark: #1f2937;
   --large-text: #f9faf8;
   --secondary-text: #e5e7eb;
   --button-color: #3882f6;
+  --hover-text: #fefeff;
 
   --text-sm: 18px;
   --text-md: 24px;
@@ -10,23 +15,73 @@
   --text-xl: 48px;
 }
 
+header {
+  font-size: var(--text-sm);
+  color: var(--secondary-text);
+}
+
+header nav {
+  font-size: var(--text-sm);
+  color: var(--secondary-text);
+  list-style: none;
+}
+
+header .logo {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  padding: 15px;
+  justify-content: space-between;
+  font-size: var(--text-md);
+  color: var(--large-text);
+}
+
+header .info {
+  font-size: var(--text-lg);
+  font-weight: 800;
+  color: var(--dark);
+}
+
 .hero {
   background-color: var(--dark);
 }
+
 .hero .main {
   font-size: var(--text-xl);
   font-weight: 800;
   color: var(--large-text);
 }
-.hero .secondary,
-.header .link {
+
+.hero .secondary {
   font-size: var(--text-sm);
-  color: #e5e7eb;
+  color: var(--secondary-text);
 }
 
-.header .logo {
-  font-size: var(--text-md);
-  color: var(--large-text);
+a:link,
+a:visited {
+  text-decoration: none;
+  color: var(--secondary-text);
+}
+a:hover {
+  color: var(--hover-text);
+}
+
+button {
+  color: var(--button-color);
+}
+
+button .cta {
+  color: var(--button-color);
+}
+
+blockquote {
+  color: var(--secondary-text);
+}
+
+blockquote .text {
+  font-size: var(--text-lg);
+  font-style: italic;
+  color: var(--dark);
 }
 
 footer {
