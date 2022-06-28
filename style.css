@@ -69,16 +69,14 @@ a:hover {
   color: var(--hover-text);
 }
 
-button {
+button,
+.cta {
   color: var(--button-color);
 }
 
-button .cta {
-  color: var(--button-color);
-}
-
-blockquote {
-  color: var(--secondary-text);
+blockquote,
+figcaption {
+  background-color: var(--secondary-text);
 }
 
 blockquote .text {
@@ -87,6 +85,12 @@ blockquote .text {
   color: var(--dark);
 }
 
+figcaption {
+  font-size: var(--text-sm);
+  font-weight: 800;
+}
+
 footer {
+  color: var(--large-text);
   background-color: var(--dark);
 }
